@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'abdul_zabbar_backend.wsgi.app'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://abdulzabbar.netlify.app/",
+    "https://abdulzabbar.netlify.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
