@@ -5,6 +5,7 @@ class Project(models.Model):
     title= models.CharField(max_length=100)
     image= models.URLField(max_length=300)
     features= models.TextField(max_length=500)
+    description= models.TextField(max_length=600, null=True, blank=True)
     used_technology= models.CharField(max_length=400)
     github_frontend= models.URLField(max_length=300, null=True, blank=True)
     github_link_backend= models.URLField(max_length=300, null=True, blank=True)
