@@ -48,6 +48,7 @@ class Skill(models.Model):
         ("3", "3rd"),
         ("4", "4th"),
         ("5", "5th"),
+        ("6", "6th"),
         )
     displayed_in= models.CharField(max_length=10, choices=DISPLAYED_IN, unique=True)
     category= models.CharField(max_length=50)
